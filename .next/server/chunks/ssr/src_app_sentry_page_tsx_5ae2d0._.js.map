@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/antoniocaballes/repairticketing/src/app/sentry/page.tsx"],"sourcesContent":["\"use client\";\n\nexport default function Page() {\n  throw new Error(\"Sentry Test Frontend Error\");\n}\n"],"names":[],"mappings":";;;AAAA;AAEe,SAAS;IACtB,MAAM,IAAI,MAAM;AAClB"}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

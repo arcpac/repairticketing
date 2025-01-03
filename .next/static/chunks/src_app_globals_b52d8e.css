@@ -626,6 +626,10 @@ body {
   border-radius: calc(var(--radius)  - 4px);
 }
 
+.rounded-xl {
+  border-radius: .75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -636,6 +640,16 @@ body {
 
 .border-input {
   border-color: hsl(var(--input));
+}
+
+.border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-background {
@@ -697,6 +711,10 @@ body {
 
 .p-2 {
   padding: .5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-2 {
