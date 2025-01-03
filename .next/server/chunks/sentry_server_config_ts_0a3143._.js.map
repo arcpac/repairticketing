@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/antoniocaballes/repairticketing/sentry.server.config.ts"],"sourcesContent":["// This file configures the initialization of Sentry on the server.\n// The config you add here will be used whenever the server handles a request.\n// https://docs.sentry.io/platforms/javascript/guides/nextjs/\n\nimport * as Sentry from \"@sentry/nextjs\";\n\nSentry.init({\n  dsn: \"https://8541bd58087fdb6cea10d6ef1a8cfa14@o4508578005843968.ingest.de.sentry.io/4508579080110160\",\n\n  // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.\n  tracesSampleRate: 1,\n\n  // Setting this option to true will print useful information to the console while you're setting up Sentry.\n  debug: false,\n});\n"],"names":[],"mappings":"AAAA,mEAAmE;AACnE,8EAA8E;AAC9E,6DAA6D;;AAE7D;;AAEA,mLAAO,IAAI,CAAC;IACV,KAAK;IAEL,mHAAmH;IACnH,kBAAkB;IAElB,2GAA2G;IAC3G,OAAO;AACT"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
