@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/antoniocaballes/repairticketing/src/app/global-error.tsx"],"sourcesContent":["\"use client\";\nimport { useEffect } from \"react\";\nimport * as Sentry from \"@sentry/nextjs\";\n\n// Error boundaries must be Client Components\n\nexport default function GlobalError({\n  error,\n  reset,\n}: {\n  error: Error & { digest?: string };\n  reset: () => void;\n}) {\n  useEffect(() => {\n    // Log the error to an error reporting service\n    console.error(error);\n    Sentry.captureException(error);\n  }, [error]);\n  return (\n    // global-error must include html and body tags\n    <html>\n      <body>\n        <h2>Something went wrong!</h2>\n        <button onClick={() => reset()}>Try again</button>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AACA;;;AAFA;;;AAMe,SAAS,YAAY,EAClC,KAAK,EACL,KAAK,EAIN;;IACC,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;iCAAE;YACR,8CAA8C;YAC9C,QAAQ,KAAK,CAAC;YACd,yKAAO,gBAAgB,CAAC;QAC1B;gCAAG;QAAC;KAAM;IACV,OACE,+CAA+C;kBAC/C,6LAAC;kBACC,cAAA,6LAAC;;8BACC,6LAAC;8BAAG;;;;;;8BACJ,6LAAC;oBAAO,SAAS,IAAM;8BAAS;;;;;;;;;;;;;;;;;AAIxC;GArBwB;KAAA"}},
-    {"offset": {"line": 67, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

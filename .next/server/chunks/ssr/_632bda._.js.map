@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/antoniocaballes/repairticketing/src/app/%28rs%29/tickets/page.tsx"],"sourcesContent":["import React from \"react\";\nexport const metadata = {\n  title: \"Tickets\",\n};\nconst TicketPage = () => {\n  return <div>TicketPage</div>;\n};\n\nexport default TicketPage;\n"],"names":[],"mappings":";;;;;;AACO,MAAM,WAAW;IACtB,OAAO;AACT;AACA,MAAM,aAAa;IACjB,qBAAO,8OAAC;kBAAI;;;;;;AACd;uCAEe"}},
-    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
