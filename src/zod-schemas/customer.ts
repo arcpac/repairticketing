@@ -8,10 +8,10 @@ export const insertCustomerSchema = createInsertSchema(customers, {
   address1: (schema) => schema.min(1, "Address line 1 is required"),
   address2: (schema) => schema.optional(),
   city: (schema) => schema.min(1, "City is required"),
-  state: (schema) => schema.length(2, "State should be 2 characters"),
+  state: (schema) => schema.length(3, "State should be 3 characters"),
   zip: (schema) =>
     schema
-      .min(5, "Zip code should be at least 5 characters")
+      .min(4, "Zip code should be at least 5 characters")
       .max(10, "Zip code should be at most 10 characters"),
   phone: (schema) => schema.min(1, "Phone number is required"),
 });

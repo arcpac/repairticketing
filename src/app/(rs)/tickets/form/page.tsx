@@ -42,7 +42,6 @@ export default async function ticketFormPage({
           </>
         );
       }
-      console.log("customer", customer);
       return <TicketForm customer={customer} />;
     }
 

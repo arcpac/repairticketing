@@ -9,8 +9,9 @@ export default async function customerFormPage({
 }) {
   try {
     const { customerId } = await searchParams;
-
+console.log('customerId', customerId)
     if (customerId) {
+
       const customer = await getCustomer(parseInt(customerId));
       if (!customer) {
         return (
